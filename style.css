@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.visible{
+	width:150px;
+	height:100px;
+	overflow:visible;
+	background-color:yellow;
+}
+.hidden{
+	width:150px;
+	height:100px;
+	overflow:hidden;
+	background-color:yellow;
+}
+.auto{
+	width:150px;
+	height:100px;
+	overflow:auto;
+	background-color:yellow;
+}
+.clip{
+	width:150px;
+	height:100px;
+	overflow:clip;
+	background-color:yellow;
+}
+.scroll{
+	width:100px;
+	height:100px;
+	overflow:scroll;
+	background-color:yellow;
+}
